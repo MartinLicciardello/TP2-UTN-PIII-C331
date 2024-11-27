@@ -9,7 +9,8 @@
 # LEGAJO : 117570
 
 #Descripcion API
-##La API implementa un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar las bases de datos libro y autor. Estas bases están relacionadas mediante una clave foránea (FK), cumpliendo con una relación 1:N, donde un autor puede estar asociado a múltiples libros. La API permite operaciones como agregar nuevos registros, obtener datos específicos o completos, actualizar información y eliminar elementos. 
+
+#La API implementa un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar las bases de datos libro y autor. Estas bases están relacionadas mediante una clave foránea (FK), cumpliendo con una relación 1:N, donde un autor puede estar asociado a múltiples libros. La API permite operaciones como agregar nuevos registros, obtener datos específicos o completos, actualizar información y eliminar elementos. 
 
 
 
