@@ -12,7 +12,33 @@
 
 #La API implementa un sistema CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar las bases de datos libro y autor. Estas bases están relacionadas mediante una clave foránea (FK), cumpliendo con una relación 1:N, donde un autor puede estar asociado a múltiples libros. La API permite operaciones como agregar nuevos registros, obtener datos específicos o completos, actualizar información y eliminar elementos. 
 
+#Instrucciones 
 
+#Primero se debe tener descargado XAMP y MySQLWorbench. 
+Luego desde git clonar el repositorio a una carpeta. 
+Abrir el proyecto descargado. 
+Una vez que tiene el proyecto descargado abralo y debera descargar las depedencias que son necesarias con : npm install 
+Descargar nodemon para realizar vistas sincronicas mas rapidas del index.js
+Descargar Thunder Cliente.
+Realizar las peticiones a gusto de get put update y delete.
+
+Este seria un edpoint de ejemplo json de la base de datos AUTOR: 
+
+
+ {
+    "id": 1,
+    "name": "Messi",
+    "surname": "Lionel",
+    "createdAt": "2024-11-27T10:00:00.000Z",
+    "updatedAt": "2024-11-27T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Ana",
+    "surname": "Frank",
+    "createdAt": "2024-11-27T10:01:00.000Z",
+    "updatedAt": "2024-11-27T10:01:00.000Z"
+  }
 
 
 ## Objetivo
