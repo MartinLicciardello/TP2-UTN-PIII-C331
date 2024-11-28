@@ -40,6 +40,15 @@ Este seria un edpoint de ejemplo json de la base de datos AUTOR:
     "updatedAt": "2024-11-27T10:01:00.000Z"
   }
 
+# MODEL
+ En esta seccion usted encontrara Model Autor y Model Libro, basicamente utilizando Sequelize crea una representación de la tabla autor que permite interactuar con la base de datos de manera fácil y estructurada desde el código.
+
+# CONTROLLERS
+Este código define funciones para manejar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre la entidad Autor y Libro en una API.
+Las funciones son creaer, obtener, eliminar ,actualizar o obtener por ejemplo por un ID determinado. En caso de no encontrar o error en la query se lanza un mensaje de error.
+
+# ROUTES
+  Compuesto por la ruta autor y libre en ambos casos se definen las rutas para manejar operaciones sobre autores y libros en la API.El archivo exporta estas rutas para usarlas en la aplicación Express.
 
 ## Objetivo
 
